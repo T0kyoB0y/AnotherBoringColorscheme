@@ -1,3 +1,6 @@
-# Just a nother Colorscheme
+# Just another Colorscheme
 
-Based on oxocarbon, but worst
+### Based on oxocarbon, but a worst version
+Preview:  
+
+![Image1](./img/image.png)

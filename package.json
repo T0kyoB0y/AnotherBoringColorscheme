@@ -1,12 +1,13 @@
 {
+  "icon": "./img/icon.jpg",
   "author": {
     "name": "T0kyoB0t"
   },
   "publisher": "t0kyob0y",
   "name": "another-colorscheme",
   "displayName": "Another Colorscheme",
-  "description": "Just another colorscheme based on oxocarbon, but worst",
-  "version": "0.0.1",
+  "description": "Just another colorscheme based on oxocarbon, but a  worst version",
+  "version": "0.0.2",
   "repository": "https://github.com/T0kyoB0y/AnotherBoringColorscheme",
   "engines": {
     "vscode": "^1.81.0"
@@ -17,7 +18,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Another Colorscheme Theme",
+        "label": "Another Colorscheme",
         "uiTheme": "vs-dark",
         "path": "./themes/Another Colorscheme Theme-color-theme.json"
       }
