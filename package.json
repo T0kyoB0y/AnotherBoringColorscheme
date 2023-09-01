@@ -1,8 +1,12 @@
 {
+  "author": {
+    "name": "T0kyoB0t"
+  },
   "name": "another-colorscheme",
   "displayName": "Another Colorscheme",
   "description": "Just another colorscheme based on oxocarbon, but worst",
   "version": "0.0.1",
+  "repository": "https://github.com/T0kyoB0y/AnotherBoringColorscheme",
   "engines": {
     "vscode": "^1.81.0"
   },
