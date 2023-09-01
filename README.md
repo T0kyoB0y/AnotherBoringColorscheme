@@ -3,4 +3,4 @@
 ### Based on oxocarbon, but a worst version
 Preview:  
 
-![Image1](./img/image.png)
+![Image1](img/image.png)
