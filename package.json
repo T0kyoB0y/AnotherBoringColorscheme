@@ -7,7 +7,7 @@
   "name": "another-colorscheme",
   "displayName": "Another Colorscheme",
   "description": "Just another colorscheme based on oxocarbon, but a  worst version",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "repository": "https://github.com/T0kyoB0y/AnotherBoringColorscheme",
   "engines": {
     "vscode": "^1.81.0"
