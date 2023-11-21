@@ -354,11 +354,14 @@
 		//"charts.purple": "#b180d7",
 		//"charts.red": "#ff2b00",
 		//"charts.yellow": "#c693ff",
+		//"chat.avatarBackground": "#1f1f1f",
+		//"chat.avatarForeground": "#dde1e6",
 		//"chat.requestBorder": "#ffffff1a",
 		//"chat.slashCommandBackground": "#c693ff",
 		//"chat.slashCommandForeground": "#161616",
 		//"checkbox.selectBackground": "#232323",
 		//"checkbox.selectBorder": "#dde1e6",
+		//"commandCenter.debuggingBackground": "#16161642",
 		//"commentsView.resolvedIcon": "#525252",
 		//"commentsView.unresolvedIcon": "#161616",
 		//"debugConsole.errorForeground": "#f48771",
@@ -523,7 +526,6 @@
 		//"extensionIcon.starForeground": "#ff8e00",
 		//"extensionIcon.verifiedForeground": "#c693ff",
 		//"gitDecoration.renamedResourceForeground": "#73c991",
-		//"htmlEndTagLabels.labelColor": "#c693ff",
 		//"inlineChat.background": "#232323",
 		//"inlineChat.border": "#232323",
 		//"inlineChat.regionHighlight": "#30293a",
@@ -566,6 +568,7 @@
 		//"mergeEditor.conflict.unhandledUnfocused.border": "#ffa6007a",
 		//"mergeEditor.conflictingLines.background": "#ffea0047",
 		//"minimap.foregroundOpacity": "#000000",
+		//"minimap.infoHighlight": "#c693ff",
 		//"minimap.selectionOccurrenceHighlight": "#676767",
 		//"minimapSlider.activeBackground": "#39393980",
 		//"minimapSlider.background": "#39393980",
@@ -595,7 +598,6 @@
 		//"profileBadge.background": "#4d4d4d",
 		//"profileBadge.foreground": "#ffffff",
 		//"sash.hoverBorder": "#161616",
-		//"scm.providerBorder": "#454545",
 		//"search.resultsInfoForeground": "#dde1e6a6",
 		//"searchEditor.findMatchBackground": "#3ddbd922",
 		//"searchEditor.findMatchBorder": "#3ddbd90b",
@@ -692,9 +694,10 @@
 		//"testing.peekBorder": "#ff2b00",
 		//"testing.peekHeaderBackground": "#ff2b001a",
 		//"testing.runAction": "#73c991",
-		//"textBlockQuote.background": "#7f7f7f1a",
+		//"textBlockQuote.background": "#222222",
 		//"textBlockQuote.border": "#007acc80",
 		//"textCodeBlock.background": "#0a0a0a66",
+		//"textPreformat.background": "#ffffff1a",
 		//"textPreformat.foreground": "#d7ba7d",
 		//"textSeparator.foreground": "#ffffff2e",
 		//"toolbar.activeBackground": "#63666750",
@@ -2624,6 +2627,27 @@
 			"settings": {
 				"foreground": "#FF7EB6",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.assignment.shell",
+				"constant.other.option.dash.shell",
+				"constant.other.option",
+				"string.unquoted.argument.shell"
+			],
+			"settings": {
+				"foreground": "#DDE1E6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.shell",
+				"entity.name.command.shell"
+			],
+			"settings": {
+				"foreground": "#FF7EB6"
 			}
 		}
 	]
